@@ -1,0 +1,4 @@
+root@kali:~/Git/docker-test# docker build -t docker/demo .
+
+root@kali:~/Git/docker-test# docker run -p 8000:3000 docker/demo
+
