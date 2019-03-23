@@ -2,3 +2,12 @@ root@kali:~/Git/docker-test# docker build -t docker/demo .
 
 root@kali:~/Git/docker-test# docker run -p 8000:3000 docker/demo
 
+
+docker ps
+
+
+root@kali:~/Git/docker-test# docker stop c48ef9c69a46
+
+
+
+root@kali:~/Git/docker-test# docker run -p 8000:3000 -v /root/Git/docker-test/:/home/node/app docker/demo
